@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lamp-content{
+    text-align: center;
+}
+
+.lamp-image{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.button-section{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.btn-turn-on{
+    background: linear-gradient(to right, #43c770, #96ef79)
+}
+
+.btn-turn-off{
+    background: linear-gradient(to right, #c74343, #ef7979)
+}
