@@ -12,6 +12,7 @@ body{
 
 .lamp-content{
     text-align: center;
+    cursor: pointer;
 }
 
 .lamp-image{
